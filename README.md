@@ -11,4 +11,11 @@ This script serves as a tool to test if all endpoints connected to a domain cont
     - Done to address a nonterminating error in order to make the UI more clean.
  
 # PostureCheck.ps1
-This is a script I made that I configured to run every 5 minutes that reminds me to fix my posture, it uses 2 different kind of messages that will randomly be chosen.
+This is a script I made that I configured to run every 5 minutes that reminds me to fix my posture, it uses 2 different kind of messages that will randomly be chosen. I used the Burnt-Toast module to build this
+
+# PortChecker.ps1
+This script serves as a tool to find any open ports that may be security risks
+
+*To Do List:*
+-    I want to make the script more flexible with what subnet sizes a user chooses.
+-    Allow user to scan multiple ports at once
